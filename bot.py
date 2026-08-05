@@ -5,7 +5,8 @@ import time
 from datetime import datetime, timedelta
 from threading import Timer
 
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application,
     CommandHandler,
